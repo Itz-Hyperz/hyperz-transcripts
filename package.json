@@ -1,6 +1,6 @@
 {
   "name": "hyperz-transcripts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple DiscordJS V13 HTML Transcript NPM Module.",
   "main": "index.js",
   "scripts": {
