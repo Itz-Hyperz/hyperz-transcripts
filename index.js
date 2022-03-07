@@ -56,6 +56,7 @@ class HyperzTranscripts {
             let guildImg = document.createElement('img');
             guildImg.setAttribute('src', message.guild.iconURL({ format: "png" }));
             guildImg.setAttribute('width', '150');
+            guildImg.setAttribute('class', 'gname');
             guildElement.appendChild(guildImg);
             guildElement.appendChild(guildText);
             await fs.appendFile('./node_modules/hyperz-transcripts/ticket.html', guildElement.outerHTML, (err) => {
